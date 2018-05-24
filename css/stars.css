@@ -1,0 +1,440 @@
+.star {
+	position: absolute;
+	z-index: -10;
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+.spacecraft {
+	width: 2em;
+	height: auto;
+	position: absolute;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+#star-one {
+	width: 1em;
+	height: 1em;
+	animation-name: star-one, glowingWhite;
+	animation-duration: 65s;
+	animation-delay: 2s;
+}
+
+#star-two {
+	width: 1.5em;
+	height: 1.5em;
+	animation-name: star-two, glowingBlue;
+	animation-duration: 70s;
+	animation-delay: 10s;
+}
+
+#star-three {
+	width: 0.5em;
+	height: 0.5em;
+	animation-name: star-three, glowingWhite;
+	animation-duration: 52s;
+	animation-delay: 5s;
+}
+
+#star-four {
+	width: 0.5em;
+	height: 0.5em;
+	animation-name: star-four, glowingRed;
+	animation-duration: 140s;
+	animation-delay: 25s;
+}
+
+#star-five {
+	width: 1em;
+	height: 1em;
+	animation-name: star-five, glowingWhite;
+	animation-duration: 75s;
+	animation-delay: 20s;
+}
+
+#star-six {
+	width: 0.5em;
+	height: 0.5em;
+	animation-name: star-six, glowingWhite;
+	animation-duration: 45s;
+	animation-delay: 28s;
+}
+
+#star-seven {
+	width: 0.5em;
+	height: 0.5em;
+	animation-name: star-seven, glowingBlue;
+	animation-duration: 40s;
+	animation-delay: 35s;
+}
+
+#star-eight {
+	width: 1em;
+	height: 1em;
+	animation-name: star-eight, glowingWhite;
+	animation-duration: 40s;
+	animation-delay: 42s;
+}
+
+#star-nine {
+	width: 0.8em;
+	height: 0.8em;
+	animation-name: star-nine, glowingRed;
+	animation-duration: 55s;
+	animation-delay: 18s;
+}
+
+#star-ten {
+	width: 0.5em;
+	height: 0.5em;
+	animation-name: star-ten, glowingWhite;
+	animation-duration: 48s;
+	animation-delay: 38s;
+}
+
+#nebula-one {
+	width: 50%;
+	height: auto;
+	animation-name: nebula-one;
+	animation-duration: 20s;
+	animation-delay: 0s;
+}
+
+#nebula-two {
+	width: 50%;
+	height: auto;
+	animation-name: nebula-two;
+	animation-duration: 20s;
+	animation-delay: 15s;
+}
+
+#falcon {
+	top: -20%; 
+	left: -30%;
+	z-index: -2;
+	animation-name: falcon;
+	animation-duration: 155s;
+	animation-delay: 30s;
+}
+
+#combat-one {
+	top: 80%;
+	right: -30%;
+	z-index: -1;
+	animation-name: combat-one;
+	animation-duration: 222s;
+	animation-delay: 78s;
+}
+
+#combat-two {
+	top: 0%; 
+	right: -30%;
+	z-index: -3;
+	animation-name: combat-two;
+	animation-duration: 124s;
+	animation-delay: 80s;
+}
+
+#cargo {
+	top: 80%; 
+	right: -30%;
+	z-index: -5;
+	animation-name: cargo;
+	animation-duration: 307s;
+	animation-delay: 105s;
+}
+
+#frigate {
+	top: 20%; 
+	left: -30%;
+	z-index: -4;
+	animation-name: frigate;
+	animation-duration: 276s;
+	animation-delay: 136s;
+}
+
+#death-star {
+	top: 0%; 
+	right: -30%;
+	z-index: -6;
+	animation-name: death-star;
+	animation-duration: 328s;
+	animation-delay: 168s;
+}
+
+@keyframes star-one {
+	0% {top: 10%; 
+		right: -20%;}
+	22% {top: 100%; 
+		right: 120%;}
+	100% {top: 120%; 
+		right: 120%;}
+}
+
+@keyframes star-two {
+	0% {top: 40%;
+		right: -20%;}
+	20% {top: 150%;
+		right: 120%;}
+	100% {top: 200%;
+		right: 120%;}
+}
+
+@keyframes star-three {
+	0% {top: 40%;
+		right: -10%;}
+	18% {top: 110%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;}
+}
+
+@keyframes star-four {
+	0% {top: 50%;
+		right: -10%;}
+	15% {top: 150%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;}
+}
+
+@keyframes star-five {
+	0% {top: 30%;
+		right: -10%;}
+	20% {top: 70%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;} 
+}
+
+@keyframes star-six {
+	0% {top: -20%;
+		right: -10%;}
+	22% {top: 80%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;} 
+}
+
+@keyframes star-seven {
+	0% {top: -20%;
+		right: -10%;}
+	30% {top: 50%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;} 
+}
+
+@keyframes star-eight {
+	0% {top: -50%;
+		right: 20%;}
+	28% {top: 70%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;} 
+}
+
+@keyframes star-nine {
+	0% {top: -30%;
+		right: -10%;}
+	20% {top: 100%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;} 
+}
+
+@keyframes star-ten {
+	0% {top: 20%;
+		right: -10%;}
+	28% {top: 90%;
+		right: 120%;}
+	100% {top: 100%;
+		right: 120%;} 
+}
+
+@keyframes glowingWhite {
+	0% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 1em 0em white;}
+	3% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 5em 1em white;}
+	6% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 1em 0em white;}
+	9% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 5em 1em white;}
+	12% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 1em 0em white;}
+	15% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 5em 1em white;}
+	18% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 1em 0em white;}
+	21% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 5em 1em white;}
+	24% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 1em 0em white;}
+	27% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 5em 1em white;}
+	30% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 1em 0em white;}
+	100% {background-color: #FFFFFF;
+		box-shadow: 0em 0em 5em 1em white;}
+}
+
+@keyframes glowingBlue {
+	0% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	2% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 2em #7DF9FF;}
+	4% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	6% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 1.5em #7DF9FF;}
+	8% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	10% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 2em #7DF9FF;}
+	12% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	14% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 1.5em #7DF9FF;}
+	16% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	18% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 1em #7DF9FF;}
+	20% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	22% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 1em #7DF9FF;}
+	24% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	26% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 1em #7DF9FF;}
+	28% {background-color: #7DF9FF;
+		box-shadow: 0em 0em 1em 0em #7DF9FF;}
+	30% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 1em #7DF9FF;}
+	100% {background-color: #CCF9FF;
+		box-shadow: 0em 0em 5em 2em #7DF9FF;}
+}
+
+@keyframes glowingRed {
+	0% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	2% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	4% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	6% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	8% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	10% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	12% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	14% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	16% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	18% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	20% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	22% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	24% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	26% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	28% {background-color: #FD9888;
+		box-shadow: 0em 0em 1em 0em #FDA193;}
+	30% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+	100% {background-color: #FDA193;
+		box-shadow: 0em 0em 5em 0.5em #FDA193;}
+}
+
+@keyframes nebula-one {
+	0% {top: 10%; right: -50%;}
+	50% {top: 15%; right: 25%;}
+	100% {top: 20%; right: 100%;}
+}
+
+@keyframes nebula-two {
+	0% {bottom: -100%; left: 0%;}
+	50% {bottom: 25%; left: 50%;}
+	100% {bottom: 100%; left: 100%;}
+}
+
+@keyframes falcon {
+	0% {top: -20%; 
+		left: -50%; 
+		width: 2em;}
+	6% {top: 120%; 
+		left: 120%; 
+		width: 80em;}
+	100% {top: 100%; 
+		left: 150%;}
+}
+
+@keyframes combat-one {
+	0% {top: 80%; 
+		right: -30%; 
+		width: 2em;}
+	4% {top: -20%; 
+		right: 120%; 
+		width: 50em;}
+	100% {top: -100%; 
+		right: 150%;}
+}
+
+@keyframes combat-two {
+	0% {top: 0%; 
+		right: -30%; 
+		width: 0.5em;}
+	7% {top: 80%; 
+		right: 120%; 
+		width: 20em;}
+	100% {top: -100%; 
+		right: 150%;}
+}
+
+@keyframes cargo {
+	0% {top: 100%; 
+		right: -60%; 
+		width: 60em;}
+	4% {top: 0%; 
+		right: 120%; 
+		width: 0em;}
+	100% {top: -100%; 
+		right: 150%;}
+}
+
+@keyframes frigate {
+	0% {top: 20%; 
+		left: -30%;
+		width: 12em;}
+	5% {top: 50%; 
+		left: 120%; 
+		width: 80em;}
+	100% {top: -100%; 
+		left: 150%;}
+}
+
+@keyframes death-star {
+	0% {top: 35%; 
+		left: -20%; 
+		width: 10em;}
+	4% {top: 0%; 
+		left: 120%; 
+		width: 20em;}
+	100% {top: -100%; 
+		left: 150%;}
+}

@@ -1,0 +1,26 @@
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+#crew {
+    padding: 8px 8px 8px 24px;
+    display: none;
+    overflow: scroll;
+    max-height: 20%;
+}
+
+#crew a {
+	font-size: 16px;
+    color: #818181;
+}
+
+#crew a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}

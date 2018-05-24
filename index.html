@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/accordion.css"/>
+		<link rel="stylesheet" type="text/css" href="css/stars.css"/>
+		<script src="js/scripts.js"></script>
+		<script src="js/sidebar.js"></script>
+		<script src="js/crew.js"></script>
+		<script src="js/accordion.js"></script>
+	</head>
+	<body>
+		<ul class="topnav">
+			<li><a href="#contact">contact</a></li>
+			<li><a id="logo" href="#me">Curiosity</a></li>
+			<li><a id="menu" onclick="openSidebar()"><i class="fa fa-bars menu"></i></a></li>
+		</ul>
+
+		<div class="content">
+			<div class="arrow left" onclick="previousCrewMember();">
+				<i class="fa fa-caret-left fa-5x"></i>
+			</div>
+			<div class="card">
+				<img id="image" src="images/crew/chewbacca.jpg" alt="photo"/>
+				<div class="card-info">
+					<h2 id="name"></h2>
+					<p id="role"></p>
+					<p id="description"></p>
+					<p><strong>Skills:</strong> <span id="skills"></span></p>
+				</div>
+			</div>
+			<div class="arrow right" onclick="nextCrewMember();">
+				<i class="fa fa-caret-right fa-5x"></i>
+			</div>
+		</div>
+
+		<div class="bottomnav">The Spaceship Crew</div>
+
+		<div id="SidebarMenu" class="sidebar">
+		 	<a href="javascript:void(0)" class="closeButton" onclick="closeSidebar()">&times;</a>
+		 	<a id="logo-text-sidebar" href="#me"><i id="logo-sidebar" class="fa fa-rocket fa-5x" aria-hidden="true"></i>Curiosity</a>
+		 	<a href="#">Mission</a>
+		 	<a class="accordion" href="#" onclick="showCrew();">Crew</a>
+		 	<div id="crew">
+			 	<a onclick="getCrewMemberInfo(0);">Chewbacca</a>
+			 	<a onclick="getCrewMemberInfo(1);">Yoda</a>
+			 	<a onclick="getCrewMemberInfo(2);">BB8</a>
+			</div>
+		 	<a href="#">Spaceship</a>
+		 	<a href="#">Map</a>
+		</div>
+
+		<div class="star" id="star-one"></div>
+		<div class="star" id="star-two"></div>
+		<div class="star" id="star-three"></div>
+		<div class="star" id="star-four"></div>
+		<div class="star" id="star-five"></div>
+		<div class="star" id="star-six"></div>
+		<div class="star" id="star-seven"></div>
+		<div class="star" id="star-eight"></div>
+		<div class="star" id="star-nine"></div>
+		<div class="star" id="star-ten"></div>
+		<img class="star" id="nebula-one" src="images/space/nebula1.png" />
+		<img class="star" id="nebula-two" src="images/space/nebula2.png" />
+		<img class="spacecraft" id="falcon" src="images/spacecraft/falcon.png" />
+		<img class="spacecraft" id="combat-one" src="images/spacecraft/combat-one.png" />
+		<img class="spacecraft" id="combat-two" src="images/spacecraft/combat-two.png" />
+		<img class="spacecraft" id="cargo" src="images/spacecraft/cargo.png" />
+		<img class="spacecraft" id="frigate" src="images/spacecraft/frigate.png" />
+		<img class="spacecraft" id="death-star" src="images/spacecraft/death-star.png" />
+
+	</body>
+</html>
